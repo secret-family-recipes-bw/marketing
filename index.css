@@ -99,20 +99,20 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
 }
 /* Nav */
 nav{
+    font-size: 25px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-content: center;
+    margin: 4% auto;
 }
-.board {
+.links {
     overflow: hidden;
     background-color: #333;
 }
-.board a {
+.links a {
     float: left;
     font-size: 16px;
     color: white;
