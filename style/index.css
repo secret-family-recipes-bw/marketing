@@ -22,13 +22,13 @@
     max-width: 100%;
   }
 /* Nav */
-/* nav{
+#account{
     font-size: 25px;
     display: flex;
     justify-content: space-around;
     align-content: center;
     margin: 4% auto;
-} */
+}
 .links {
     overflow: hidden;
     background-color: #333;
@@ -58,7 +58,7 @@
   }
   
 .links a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #BC4639;
   }
   
 .dropdown-content {
