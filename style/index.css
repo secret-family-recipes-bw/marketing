@@ -22,13 +22,6 @@
     max-width: 100%;
   }
 /* Nav */
-#account{
-    width: 50%;
-    font-size: 25px;
-    display: flex;
-    justify-content: space-around;
-    align-content: flex-end;
-}
 .links {
     overflow: hidden;
     background-color: #333;
@@ -88,19 +81,15 @@
   }
   /* End Nav */
 
-/* h1{
-    color: #4387f4;
-    /* baby sky blue */
-    /* color: #420D09; */
-    /* mahogany */
-    /* color: #BC4639; */
-    /* spilled wine */
-    /* color: #D4A59A; */
+h1{
+    color: #D4A59A;
     /* skin neutral */
-    /* color: #F3E0DC; */
-    /* white */
-/* } */ 
+}
 
 /* Responsive Design */
-@media(max-width: 100px){}
-@media(max-width: 500px){}
+@media(max-width: 100px){
+
+}
+@media(max-width: 500px){
+  
+}
