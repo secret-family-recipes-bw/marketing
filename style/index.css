@@ -158,6 +158,8 @@ nav {
     align-items: center;
 }
 h1{
+  height: 25%;
+  text-align: center;
   font-size: 2rem;
   color: #D4A59A;
 }
