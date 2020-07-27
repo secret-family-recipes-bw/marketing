@@ -26,8 +26,7 @@
     font-size: 25px;
     display: flex;
     justify-content: space-around;
-    align-content: center;
-    margin: 4% auto;
+    align-content: flex-end;
 }
 .links {
     overflow: hidden;
