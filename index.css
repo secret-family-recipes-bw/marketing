@@ -14,15 +14,21 @@
 #F3E0DC
 --> white 
 */
-
+/* General */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
 /* Nav */
-nav{
+/* nav{
     font-size: 25px;
     display: flex;
     justify-content: space-around;
     align-content: center;
     margin: 4% auto;
-}
+} */
 .links {
     overflow: hidden;
     background-color: #333;
@@ -51,7 +57,7 @@ nav{
     margin: 0;
   }
   
-.navbar a:hover, .dropdown:hover .dropbtn {
+.links a:hover, .dropdown:hover .dropbtn {
     background-color: red;
   }
   
