@@ -167,18 +167,18 @@ nav{
   }
   /* End Nav */
 
-h1{
+/* h1{
     color: #4387f4;
     /* baby sky blue */
-    color: #420D09;
+    /* color: #420D09; */
     /* mahogany */
-    color: #BC4639;
+    /* color: #BC4639; */
     /* spilled wine */
-    color: #D4A59A;
+    /* color: #D4A59A; */
     /* skin neutral */
-    color: #F3E0DC;
+    /* color: #F3E0DC; */
     /* white */
-}
+} */
 
 /* Responsive Design */
 @media(max-width: 100px){}
