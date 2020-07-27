@@ -27,13 +27,15 @@
     background-color: #333;
 }
 .links a {
-    float: left;
+    display: inline;
     font-size: 16px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
+  /* End Nav */
+  /* Drop down feature */
 .dropdown {
     float: left;
     overflow: hidden;
@@ -79,17 +81,20 @@
 .dropdown:hover .dropdown-content {
     display: block;
   }
-  /* End Nav */
-
+/* End of Dropdown */
+/* Text, background, color */
 h1{
     color: #D4A59A;
     /* skin neutral */
 }
+h2{
+  color: #BC4639;
+}
 
 /* Responsive Design */
-@media(max-width: 100px){
+@media(max-width: 1000px){
 
 }
 @media(max-width: 500px){
-  
+
 }
