@@ -1,0 +1,32 @@
+/*Colors
+#4285F4
+--> baby sky blue 
+
+#420D09 
+--> mahogany 
+
+#BC4639
+--> spilled wine 
+
+#D4A59A
+--> skin neutral 
+
+#F3E0DC
+--> white 
+*/
+h1{
+    color: #4387f4;
+    /* baby sky blue */
+    color: #420D09;
+    /* mahogany */
+    color: #BC4639;
+    /* spilled wine */
+    color: #D4A59A;
+    /* skin neutral */
+    color: #F3E0DC;
+    /* white */
+}
+
+/* Responsive Design */
+@media(max-width: 100px){}
+@media(max-width: 500px){}
