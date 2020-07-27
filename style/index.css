@@ -105,6 +105,8 @@ time, mark, audio, video {
 /* End of Dropdown */
 /* Text, background, color */
 h1{
+    height: 0px;
+    width: 75%;
     font-size: 2rem;
     color: #D4A59A;
     /* skin neutral */
