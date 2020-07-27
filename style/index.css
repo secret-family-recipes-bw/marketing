@@ -111,11 +111,42 @@ h1{
 h2{
   color: #BC4639;
 }
+/* End of text */
+/* Images */
+.Devs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* #Henry{
 
+}
+#Chris{
+
+}
+#Nicholas{
+
+}
+#Stephanie{
+
+}
+#Francisco{
+
+} */
 /* Responsive Design */
 @media(max-width: 1000px){
 
 }
 @media(max-width: 500px){
-
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
