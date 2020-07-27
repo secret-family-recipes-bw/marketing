@@ -164,7 +164,9 @@ h1{
   color: #D4A59A;
 }
 p, h2{
+  margin: 2%;
   text-align: center;
+  font-size: 1.3rem;
 }
 #Henry{
   -moz-hyphens: ;
