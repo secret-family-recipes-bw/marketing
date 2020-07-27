@@ -23,6 +23,7 @@
   }
 /* Nav */
 #account{
+    width: 50%;
     font-size: 25px;
     display: flex;
     justify-content: space-around;
