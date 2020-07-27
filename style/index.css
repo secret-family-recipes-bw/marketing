@@ -106,7 +106,7 @@ time, mark, audio, video {
 /* Text, background, color */
 h1{
     height: 0px;
-    width: 75%;
+    width: 100%;
     font-size: 2rem;
     color: #D4A59A;
     /* skin neutral */
@@ -158,12 +158,13 @@ nav {
     align-items: center;
 }
 h1{
-  height: 0;
-  width: 0;
   font-size: 2rem;
   color: #D4A59A;
 }
 p, h2{
   text-align: center;
+}
+#Henry{
+  -moz-hyphens: ;
 }
 }
