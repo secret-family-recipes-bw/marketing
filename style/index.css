@@ -146,7 +146,7 @@ h2{
 
 }
 @media(max-width: 500px){
-  nav {
+nav {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,5 +156,14 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+h1{
+  height: 0;
+  width: 0;
+  font-size: 2rem;
+  color: #D4A59A;
+}
+p, h2{
+  text-align: center;
 }
 }
