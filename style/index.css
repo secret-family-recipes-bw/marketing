@@ -56,12 +56,26 @@ time, mark, audio, video {
     padding: 14px 16px;
     text-decoration: none;
   }
-  /* End Nav */
-  /* Drop down feature */
-.dropdown {
-    overflow: hidden;
+.links .search-container {
+    display: flex;
+    flex-direction: column;
   }
   
+.links input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+.links input[type=text] {
+    border: 1px solid #ccc;  
+  }
+/* End Nav */
+/* Drop down feature */
+.dropdown {
+    width: 9%;
+    overflow: hidden;
+  }
 .dropdown .dropbtn {
     font-size: 16px;  
     border: none;
@@ -72,11 +86,9 @@ time, mark, audio, video {
     font-family: inherit;
     margin: 0;
   }
-  
 .links a:hover, .dropdown:hover .dropbtn {
     background-color: #BC4639;
   }
-  
 .dropdown-content {
     display: none;
     position: absolute;
@@ -84,8 +96,7 @@ time, mark, audio, video {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
-  
+  } 
 .dropdown-content a {
     float: none;
     color: black;
@@ -94,25 +105,34 @@ time, mark, audio, video {
     display: block;
     text-align: left;
   }
-  
 .dropdown-content a:hover {
     background-color: #ddd;
   }
-  
 .dropdown:hover .dropdown-content {
     display: block;
   }
 /* End of Dropdown */
 /* Text, background, color */
 h1{
+    
+    margin: 0.01% 1%;
     height: 0px;
     width: 100%;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #D4A59A;
     /* skin neutral */
 }
 h2{
+  font-size: 1.6rem;
+  text-align: center;
   color: #BC4639;
+}
+p{
+  font-size: 1.1rem;
+  text-align: center;
+}
+p, h2{
+  margin: 2%;
 }
 /* End of text */
 /* Images */
@@ -126,9 +146,10 @@ h2{
   padding:2%;
   text-align: center;
 }
-/* #Henry{
+#Henry{
 
 }
+/*
 #Chris{
 
 }
@@ -143,7 +164,23 @@ h2{
 } */
 /* Responsive Design */
 @media(max-width: 1000px){
-
+.dropdown{
+  width: 16%;
+}
+@media(max-width: 860px){
+  .dropdown{
+    width: 17%;
+  }
+}
+@media(max-width: 820px){
+  .dropdown{
+    width: 19%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .links .search-container {
+    float: none;
+  }
 }
 @media(max-width: 500px){
 nav {
@@ -168,7 +205,10 @@ p, h2{
   text-align: center;
   font-size: 1.3rem;
 }
-#Henry{
+/* #Henry{
   -moz-hyphens: ;
+} */
+.dropdown{
+  width: 16.5%;
 }
 }
