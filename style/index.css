@@ -1,0 +1,347 @@
+/*Colors
+#4285F4
+--> baby sky blue 
+
+#420D09 
+--> mahogany 
+
+#BC4639
+--> spilled wine 
+
+#D4A59A
+--> skin neutral 
+
+#F3E0DC
+--> white 
+*/
+/* General */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  box-sizing: border-box;
+  margin: 0;
+	padding: 0;
+  border: 0;
+  max-width: 100%;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+  body{
+    background-color: #fff8dd;
+  }
+/* End of General */
+
+
+/* Nav */
+.links {
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    overflow: hidden;
+    background-color: #333;
+}
+.links a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.links input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+.links input[type=text] {
+    border: 1px solid #ccc;  
+  }
+.sections{
+  font-family: 'Handlee', cursive;
+  border-radius: 2%;
+  margin: 1% 1%;
+  padding: 1% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #420D09;
+}
+.sections a{
+  color: #F3E0DC;
+}
+.sections a:link{
+  text-decoration: none;
+}
+.info{
+  display: flex;
+}
+.sidebar{
+  font-family: 'Handlee', cursive;
+  border-radius: 2%;
+  width: 25%;
+  text-align: center;
+  color: #F3E0DC;
+  margin: 1% 1%;
+  padding: 1% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #420D09;
+}
+.sidebar a{
+  color: #F3E0DC;
+}
+.sidebar a:link {
+  text-decoration: none;
+}
+.search-container{
+  margin: 0 1%;
+}
+/* End Nav */
+
+
+/* Drop down feature */
+/* .dropdown {
+    width: 7%;
+    overflow: hidden;
+  }
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+.links a:hover, .dropdown:hover .dropbtn {
+    background-color: #BC4639;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+  } 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: centers;
+  }
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+  } */
+/* End of Dropdown */
+
+
+/* Text, background, color */
+h1{
+    font-family: 'Montez', cursive;
+    margin: 0.01% 1%;
+    height: 0px;
+    width: 100%;
+    font-size: 2.5rem;
+    color: #D4A59A;
+    /* skin neutral */
+}
+h2{
+  border-radius: 2%;
+  font-family: 'Montez', cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #F3E0DC;
+  background-color: #420D09 ;
+}
+p{
+  font-family: 'Handlee', cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+p, h2{
+  margin: 2%;
+}
+#below{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ccc;
+  background-color: #420D09;
+  padding: 2%;
+}
+h3{
+  font-size: 1.5rem;
+}
+/* End of text */
+
+
+/* Mid section */
+#middle{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* End of mid section */
+
+
+/* Icons */
+.fa{
+  text-decoration: none;
+  color: #420D09;
+}
+.Devs #Chris a{
+  text-decoration: none;
+}
+/* End of Icons */
+
+/* Images */
+#kitchen{
+  border-radius: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.Devs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Devs section {
+  width: 26%;
+  padding:2%;
+  text-align: center;
+}
+#Henry:hover{
+  border:10px dotted #4285F4;
+}
+
+#Chris:hover{
+  border:10px dotted #4285F4;
+}
+#Nicholas:hover{
+  border:10px dotted #4285F4;
+}
+#Stephanie:hover{
+  border:10px dotted #4285F4;
+}
+#Francisco:hover{
+  border:10px dotted #4285F4;
+}
+/* End of images */
+
+
+/* Responsive Design */
+@media(max-width: 1200px){
+  .dropdown{
+    width: 16%;
+    }
+}
+@media(max-width: 1000px){
+  #below{
+    font-size: 1.5rem;
+    color: #ccc;
+    background-color: #420D09;
+    padding: 2%;
+  }
+.dropdown{
+  width: 20%;
+  }
+}
+@media(max-width: 500px){
+/* Text */
+h1{
+  height: 25%;
+  text-align: center;
+  font-size: 2rem;
+  color: #D4A59A;
+}
+p, h2{
+  margin: 2%;
+  text-align: center;
+  font-size: 1.3rem;
+}
+#sides{
+margin: 1.5% 0;;  
+}
+#middle{
+  width: 100%;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Nav */
+.dropdown{
+  width: 16.5%;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-container{
+  width: 42%;
+  margin: 0 1%;
+}
+.sidebar{
+  font-family: 'Handlee', cursive;
+  border-radius: 2%;
+  width: 100%;
+  text-align: center;
+  color: #F3E0DC;
+  margin: 1% 1%;
+  padding: 1% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #420D09;
+}
+
+/* Image */
+#kitchen{
+  border-radius: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+/* About Page */
+#below{
+  font-size: 1rem;
+  color: #ccc;
+  background-color: #420D09;
+  padding: 2%;
+}
+.Devs{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Devs section {
+  width: 50%;
+}
+}
