@@ -114,7 +114,7 @@ time, mark, audio, video {
 
 
 /* Drop down feature */
-.dropdown {
+/* .dropdown {
     width: 7%;
     overflow: hidden;
   }
@@ -148,7 +148,7 @@ time, mark, audio, video {
   }
 .dropdown:hover .dropdown-content {
     display: block;
-  }
+  } */
 /* End of Dropdown */
 
 
