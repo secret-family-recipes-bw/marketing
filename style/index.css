@@ -70,6 +70,7 @@ time, mark, audio, video {
     border: 1px solid #ccc;  
   }
 .sections{
+  font-family: 'Handlee', cursive;
   border-radius: 2%;
   margin: 1% 1%;
   padding: 1% 0;
@@ -88,6 +89,7 @@ time, mark, audio, video {
   display: flex;
 }
 .sidebar{
+  font-family: 'Handlee', cursive;
   border-radius: 2%;
   width: 25%;
   text-align: center;
@@ -104,6 +106,9 @@ time, mark, audio, video {
 }
 .sidebar a:link {
   text-decoration: none;
+}
+.search-container{
+  margin: 0 1%;
 }
 /* End Nav */
 
@@ -173,6 +178,13 @@ p{
 p, h2{
   margin: 2%;
 }
+#below{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ccc;
+  background-color: #420D09;
+  padding: 2%;
+}
 /* End of text */
 
 
@@ -184,6 +196,13 @@ p, h2{
 }
 /* End of mid section */
 
+
+/* Icons */
+.fa{
+  text-decoration: none;
+  color: #420D09;
+}
+/* End of Icons */
 
 /* Images */
 #kitchen{
@@ -201,12 +220,6 @@ p, h2{
   width: 26%;
   padding:2%;
   text-align: center;
-}
-#below{
-  font-size: 2rem;
-  color: #ccc;
-  background-color: #420D09;
-  padding: 2%;
 }
 #Henry:hover{
   border:10px dotted #4285F4;
@@ -245,17 +258,7 @@ p, h2{
   }
 }
 @media(max-width: 500px){
-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2% 0;
-}
-.links{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* Text */
 h1{
   height: 25%;
   text-align: center;
@@ -267,11 +270,40 @@ p, h2{
   text-align: center;
   font-size: 1.3rem;
 }
+#sides{
+margin: 1.5% 0;;  
+}
+#middle{
+  width: 100%;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Nav */
 .dropdown{
   width: 16.5%;
 }
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-container{
+  width: 42%;
+  margin: 0 1%;
+}
 .sidebar{
-  width: 75%;
+  font-family: 'Handlee', cursive;
+  border-radius: 2%;
+  width: 100%;
   text-align: center;
   color: #F3E0DC;
   margin: 1% 1%;
@@ -281,13 +313,16 @@ p, h2{
   justify-content: space-evenly;
   background-color: #420D09;
 }
+
+/* Image */
 #kitchen{
   border-radius: 5%;
   display: flex;
   flex-wrap: wrap;
-  float: right;
   width: 100%;
 }
+
+
 /* About Page */
 #below{
   font-size: 1rem;
