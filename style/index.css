@@ -57,7 +57,7 @@ time, mark, audio, video {
 .links a {
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.8750em 1.0000em;
     text-decoration: none;
   }
 .links input[type=text] {
@@ -110,7 +110,7 @@ time, mark, audio, video {
 .search-container{
   margin: 0 1%;
 }
-/* End Nav */
+/* End Nav  */
 
 
 /* Drop down feature */
@@ -202,10 +202,9 @@ h3{
 
 /* Icons */
 .fa{
-  text-decoration: none;
   color: #420D09;
 }
-.Devs #Chris a{
+.Devs #Chris a, #Henry a, #Nicholas a{
   text-decoration: none;
 }
 /* End of Icons */
@@ -252,6 +251,8 @@ h3{
     width: 16%;
     }
 }
+
+
 @media(max-width: 1000px){
   #below{
     font-size: 1.5rem;
@@ -263,15 +264,64 @@ h3{
   width: 20%;
   }
 }
+
+
+@media(max-width: 800px){
+  .sidebar{
+    font-family: 'Handlee', cursive;
+    border-radius: 2%;
+    width: 100%;
+    text-align: center;
+    color: #F3E0DC;
+    margin: 1% 1%;
+    padding: 1% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #420D09;
+  }
+  
+  /* Image */
+  #kitchen{
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+  }
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.links a {
+  color: white;
+  text-align: center;
+  padding: 0.8750em 1em;
+  text-decoration: none;
+}
+h1{
+  height: 25%;
+  text-align: center;
+  font-size: 3rem;
+  color: #D4A59A;
+}
+  /* skin neutral */
+}
+
 @media(max-width: 500px){
 /* Text */
 h1{
   height: 25%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #D4A59A;
 }
-p, h2{
+h2{
+  margin: 2%;
+  text-align: center;
+  font-size: 3rem;
+}
+p{
   margin: 2%;
   text-align: center;
   font-size: 1.3rem;
