@@ -70,12 +70,18 @@ time, mark, audio, video {
     border: 1px solid #ccc;  
   }
 .sections{
-  color: #F3E0DC;
   margin: 1% 1%;
+  padding: 1% 0;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   background-color: #420D09;
+}
+.sections a{
+  color: #F3E0DC;
+}
+.sections a:link{
+  text-decoration: none;
 }
 .info{
   display: flex;
@@ -92,7 +98,6 @@ time, mark, audio, video {
   background-color: #420D09;
 }
 .sidebar a{
-  height: 100%;
   color: #F3E0DC;
 }
 .sidebar a:link {
@@ -156,9 +161,6 @@ h2{
   text-align: center;
   color: #F3E0DC;
   background-color: #420D09 ;
-}
-h3{
-  margin: 2% 0;
 }
 p{
   font-family: 'Handlee', cursive;
@@ -238,7 +240,7 @@ p, h2{
     padding: 2%;
   }
 .dropdown{
-  width: 28%;
+  width: 20%;
   }
 }
 @media(max-width: 500px){
@@ -268,7 +270,7 @@ p, h2{
   width: 16.5%;
 }
 .sidebar{
-  width: 25%;
+  width: 75%;
   text-align: center;
   color: #F3E0DC;
   margin: 1% 1%;
@@ -283,7 +285,7 @@ p, h2{
   display: flex;
   flex-wrap: wrap;
   float: right;
-  width: 50%;
+  width: 100%;
 }
 /* About Page */
 #below{
