@@ -70,6 +70,7 @@ time, mark, audio, video {
     border: 1px solid #ccc;  
   }
 .sections{
+  border-radius: 2%;
   margin: 1% 1%;
   padding: 1% 0;
   display: flex;
@@ -87,6 +88,7 @@ time, mark, audio, video {
   display: flex;
 }
 .sidebar{
+  border-radius: 2%;
   width: 25%;
   text-align: center;
   color: #F3E0DC;
@@ -156,6 +158,7 @@ h1{
     /* skin neutral */
 }
 h2{
+  border-radius: 2%;
   font-family: 'Montez', cursive;
   font-size: 3rem;
   text-align: center;
@@ -178,7 +181,6 @@ p, h2{
   width: 100%;
   display: flex;
   flex-direction: column;
-  float: right;
 }
 /* End of mid section */
 
@@ -188,7 +190,6 @@ p, h2{
   border-radius: 5%;
   display: flex;
   flex-wrap: wrap;
-  float: right;
   width: 100%;
 }
 .Devs{
