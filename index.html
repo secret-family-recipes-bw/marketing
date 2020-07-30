@@ -8,50 +8,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
   </head>
+<main>
 <body>
     <header>
         <nav class="links">
                 <h1>Secret Family Recipes</h1>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="#">Recipes</a>
-            <!-- <div class="dropdown">
-                <button class="dropbtn">Recipes
-                </button>
-                <div class="dropdown-content">
-                  <a href="#">Fancy</a>
-                  <a href="#">Casual</a>
-                  <a href="#">Less for More</a>
-                </div>
-              </div> -->
-                <a href="#">Login</a>
-                <a href="#">Register</a>
+                <a aria-label="Home Page" href="index.html">Home</a>
+                <a aria-label="About Page that displays the developers" href="about.html">About</a>
+                <a aria-label="Recipes Page" href="about.html">Recipes</a>
+                <a href="https://secret-family-recipe-front-end.vercel.app">Login</a>
+                <a href="https://secret-family-recipe-front-end.vercel.app">Register</a>
             <div class="search-container">
                 <form action="/action_page.php">
-                    <input type="text" placeholder="Search..." name="search">
+                    <input id="searching" type="text" placeholder="Search..." name="search">
+                    <label for="searching">Type in here to search.</label>
                     </form>
                   </div>
         </nav>
     </header>
 <div>
   <nav class="sections">
-    <a href="#"><h3>Breakfast</h3></a>
-    <a href="#"><h3>Appetizers</h3></a>
-    <a href="#"><h3>Dinner</h3></a>
-    <a href="#"><h3>Dessert</h3></a>
+    <a aria-label="Breakfast Page" href="#"><h3>Breakfast</h3></a>
+    <a aria-label="Appetizers Page" href="#"><h3>Appetizers</h3></a>
+    <a aria-label="Dinner Page" href="#"><h3>Dinner</h3></a>
+    <a aria-label="Dessert Page" href="#"><h3>Dessert</h3></a>
   </nav>
 </div>
-  <!-- <section class="sidebar">
-    <h2>Cuisines</h2>
-  <a href="#"><h3 id="sides">Philippines</h3></a>
-  <a href="#"><h3 id="sides">Italian</h3></a>
-  <a href="#"><h3 id="sides">Indian</h3></a>
-  <a href="#"><h3 id="sides">Mexican</h3></a>
-  <a href="#"><h3 id="sides">Korean</h3></a>
-  <a href="#"><h3 id="sides">Moroccan</h3></a>
-  <a href="#"><h3 id="sides">Thai</h3></a>
-  <a href="#"><h3 id="sides">Swedish</h3></a>
-</section> -->
 <div class="midmid">
 <section class="midimage">
     <img id="kitchen" src="https://previews.123rf.com/images/dolgachov/dolgachov1802/dolgachov180201948/96033606-group-of-people-eating-chicken-for-dinner.jpg" alt="various plates with pasta, chicken, fruits and veggies laid on top of a wooden table with an aerial view of people eating or taking a portion of the food on the table">
@@ -66,4 +48,5 @@
 </div>
 </div>
 </body>
+</main>
 </html>
