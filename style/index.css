@@ -200,6 +200,7 @@ h3{
   flex-direction: column;
 }
 .midmid section.midimage #kitchen{
+  margin-left: 25%;
   border-radius: 25%;
   width: 50%;
 }
@@ -265,10 +266,15 @@ h3{
   width: 20%;
   }
 }
+.midmid section.midimage #kitchen{
+  border-radius: 25%;
+  margin-left: 15%;
+  width: 75%;
+}
 
 
 @media(max-width: 800px){
-  .sidebar{
+  /* .sidebar{
     font-family: 'Handlee', cursive;
     border-radius: 2%;
     width: 100%;
@@ -280,13 +286,12 @@ h3{
     flex-direction: column;
     justify-content: space-evenly;
     background-color: #420D09;
-  }
+  } */
   
   /* Image */
-  #kitchen{
-    border-radius: 5%;
-    display: flex;
-    flex-wrap: wrap;
+  .midmid section.midimage #kitchen{
+    border-radius: 25%;
+    margin-left: 15%;
     width: 75%;
   }
 .links{
@@ -357,7 +362,7 @@ nav {
   width: 42%;
   margin: 0 1%;
 }
-.sidebar{
+/* .sidebar{
   font-family: 'Handlee', cursive;
   border-radius: 2%;
   width: 100%;
@@ -369,14 +374,13 @@ nav {
   flex-direction: column;
   justify-content: space-evenly;
   background-color: #420D09;
-}
+} */
 
 /* Image */
-#kitchen{
+.midmid section.midimage #kitchen{
   border-radius: 25%;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+  margin-left: 15%;
+  width: 75%;
 }
 
 
